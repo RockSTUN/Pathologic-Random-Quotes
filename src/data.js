@@ -1,0 +1,68 @@
+function separateData(sting){
+    arr.push({
+        author: sting.split('/')[0],
+        quote: sting.split('/')[1]
+    })
+};
+
+let arr = [];
+
+const data = `Bachelor/I'm tired. I've had enough.
+Bachelor/Sorry, but I have to get back to work.
+Bachelor/During an outbreak, discipline can only be maintained through unwavering exertion of authority.
+Bachelor/If the rulers won't cease their clamoring, a real catastrophe will happen here.
+Bachelor/You don't even have a proper hospital in the town.
+Bachelor/In order to survive, people need to remain calm.
+Bachelor/The host walks among us.
+Bachelor/Too late now, it seems. To think victory was well within my grasp!
+Bachelor/I have a feeling that our choices were a part of some... crafty maneuver. I almost fell for it.
+Bachelor/Checkmate.
+Bachelor/What crude practices! What rustic procedures! I refuse to work this way!
+Bachelor/Sow an act, and you reap a habit. Sow a habit, and you reap a character. Sow a character, and you reap a destiny.
+Bachelor/Time is slipping through our fingers. We must act now.
+Bachelor/The soul's mechanics mirror the body's.
+Bachelor/I'm no positivist. There are things in this world beyond our mundane perception.
+Bachelor/God… what an idiot I was!
+Bachelor/If you bend your mind toward a challenge, the skill will follow in your hands.
+Bachelor/So you're a child, huh? I've just learned I don't like children.
+Bachelor/Your behavior is ridiculous. Stop playing detective and start tending to the sick.
+Bachelor/If we panic, hundreds could die. We need discipline; we need unwavering authority.
+Bachelor/Some patients of the bubonic plague were cured by simply… lying motionlessly on the ground.
+Lara Ravel/Mercy is not a virtue, but a fruit of fear.
+Lara Ravel/To harm people is mostly not as dangerous as to make them a lot of good.
+Lara Ravel/Words without deeds fill a garden with naught but weeds.
+Lara Ravel/Loving thy neighbor is a gift. Hatred is hard work.
+Lara Ravel/Medals mark murderers, the way a brand marks livestock.
+Lara Ravel/White birds are killed, yet black cats are beloved.
+Lara Ravel/If you tarry, you'll die unshriven.
+Lara Ravel/One sparrow is not enough to feed twelve mouths.
+Lara Ravel/You have dark circles under your eyes.
+Peter Stamatin/It's essential to allow yourself no time to think. That's how you get to heaven.
+Peter Stamatin/We easily forget those faults, old boy, which are known only to ourselves. True, so true.
+Peter Stamatin/We fear everything, old boy, as mortals do, and desire everything as if we were immortal.
+Peter Stamatin/There are fine things, old boy, which are more brilliant when unfinished, than when finished too much.
+Peter Stamatin/Life is a night at the bar. All the wisdom you gain, you pay for in pain.
+Peter Stamatin/Leave me be, old boy. Let me die with dignity.
+Peter Stamatin/I love glass, old boy. Everything good comes in glasses.
+Peter Stamatin/I see two of everyone. But you? I'm seeing four. What's so special about you?
+Peter Stamatin/What is a living heart? Why is everyone talking about it?
+Aglaya Lilich/Don't even bother opening your mouth. I know what you're thinking.
+Aglaya Lilich/There is an eternal order that Fate itself has predetermined. It is due to this order that things happen the way they should, following a preordained path.
+Aglaya Lilich/We're all just… dancing on our strings.
+Aglaya Lilich/Imagine a sphere. See it in your mind's eye. Now lay it out flat. Why is that so easy, when topology is so hard?
+Aglaya Lilich/A tumor. That's what it is.
+Aglaya Lilich/Only fool children think there's magic in paper lanterns. And I was a bright child.
+Aglaya Lilich/You can put a horse on the stand, but you can't make it testify.
+Aglaya Lilich/Mere words are neither priceless nor worthless—mind their purpose.
+Aglaya Lilich/There's little time left. And so much left to do…
+Aglaya Lilich/Better to die on a playground than a battleground.
+Aglaya Lilich/I haven't slept for three days straight. I don't think I have another one in me.
+Aglaya Lilich/They've grown up. And grown tired of me.
+Aglaya Lilich/There is an immutable and rational order that fate itself has composed. All things run their inevitable courses, down the topology of the universe, toward the mass of this black gravity.
+Aglaya Lilich/I wonder… who are you, standing before me? Do you even know yourself?
+Aglaya Lilich/To "solve" is to… see things through. As Inquisition does. You know? By any means necessary.
+`.split('\n').map(separateData)
+arr.pop()
+
+export default arr;
+
